@@ -38,13 +38,13 @@ public class Bai04 {
 			break;
 		case 2:
 			System.out.println("Nhập a:");
-			int a = scanner.nextInt();
+			a = scanner.nextInt();
 
 			System.out.println("Nhập b:");
-			int b = scanner.nextInt();
+			b = scanner.nextInt();
 
 			System.out.println("Nhập c:");
-			int c = scanner.nextInt();
+			c = scanner.nextInt();
 			System.out.printf("Giải phương trình bậc hai %dx^2 + %dx + %d = 0 \n", a, b, c);
 			if (a == 0 && b == 0 && c == 0) {
 				System.out.println("Phương trình có vô số nghiệm");
